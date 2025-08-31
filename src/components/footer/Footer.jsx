@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='bg-[#1c1e53]'>
         <div className="container">
             <div className="flex text-white">
-                <div className="1/2">
+                <div className="1/2 mt-[104px]">
                     <img src={logo} alt="" />
                     <p className='mb-[86px] mt-[23px] text-[#eeee]'>We are always open to discuss your project and <br /> improve your online presence.</p>
                         <div className='flex mb-[92px]'>
@@ -22,7 +22,7 @@ const Footer = () => {
                             </button>
                     </div>
                 </div>
-                <div className="1/2 ml-[142px]">
+                <div className="1/2 ml-[142px] mt-[96px]">
                           <h3 className='text-[48px] leading-[<64px>] font-[600]'>Lets Talk!</h3>
                           <p className='font-[400] text-[16px] leading-[<28px>] mt-[14px] mb-[28px]'>We are always open to discuss your project, <br /> improve your online presence and help with your <br /> UX/UI design challenges.</p>
                     <div className='flex max-w-[144px] gap-[26px]'>

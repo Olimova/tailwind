@@ -8,6 +8,7 @@ import Work from './pages/work/Work'
 import Blog from './pages/blog/Blog'
 import Contact from './pages/contact/Contact'
 import Footer from './components/footer/Footer'
+import Error from './pages/error/Error'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route path='/work' element={<Work />} />
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/contact' element={<Contact/>} />
+      <Route path='*' element={<Error/>}/>
     </Routes>
     <Footer/>
     </>

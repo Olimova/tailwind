@@ -11,7 +11,7 @@ const Hero = () => {
                       <p className='max-w-[562px] max-h[56px] text-[16px] text-[#FFFa] leading-[<28px>] mt-[24px] mb-[46px] font-(font-family:<"Libre Franklin", sans-serif>) font-[500]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br/> eiusmod tempor incididunt.</p>
                       <div className='flex gap-10'>
                           <button className=' bg-[#FCD980] text-black py-4 px-12 rounded-full cursor-pointer'>View our work</button>
-                          <button className='hover:text-white text-[#bbbbcb] duration-300 cursor-pointer'>View Pricing</button>
+                          <button className='hover:text-white  text-[#bbbbcb] duration-300 cursor-pointer'>View Pricing</button>
                       </div>
                 </div>
                 <div className="w-1/2 ">
