@@ -26,10 +26,10 @@ const Footer = () => {
                           <h3 className='text-[48px] leading-[<64px>] font-[600]'>Lets Talk!</h3>
                           <p className='font-[400] text-[16px] leading-[<28px>] mt-[14px] mb-[28px]'>We are always open to discuss your project, <br /> improve your online presence and help with your <br /> UX/UI design challenges.</p>
                     <div className='flex max-w-[144px] gap-[26px]'>
-                              <i class="fa-brands fa-facebook"></i>
-                              <i class="fa-brands fa-twitter"></i>
-                              <i class="fa-brands fa-instagram"></i>
-                              <i class="fa-brands fa-linkedin"></i>
+                              <i className="fa-brands fa-facebook"></i>
+                              <i className="fa-brands fa-twitter"></i>
+                              <i className="fa-brands fa-instagram"></i>
+                              <i className="fa-brands fa-linkedin"></i>
                     </div>
                 </div>
             </div>
