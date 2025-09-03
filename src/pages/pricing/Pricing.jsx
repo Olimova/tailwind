@@ -1,6 +1,7 @@
 import React from 'react'
 import green from '../../assets/green.svg'
 import red from '../../assets/red.svg'
+import { Link } from 'react-router-dom'
 
 const Pricing = () => {
   return (
@@ -34,7 +35,7 @@ const Pricing = () => {
           </div>
           
       </div>
-          <div className='rounded-2xl bg-[#292B5D] pb-16'>
+          <div className='rounded-2xl bg-[#292B5D] pb-16 text-white'>
             <div className=' w-[406px] pl-12 pt-16'>
             <h2 className='inline-block max-w-[95px] text-[38px] leading-[<56px>] font-[600]'>$399</h2>
               <a className='flex-wrap ml-4 justify-center text-[#FCD980]' to="#">Multi Design</a>
@@ -82,6 +83,56 @@ const Pricing = () => {
           </div>
           
       </div>
+      </div>
+
+      <div className='flex'>
+          <div className="1/2">
+            <h2 className='text-5xl font-[600] leading-16 mb-4'>Frequently asked questions</h2>
+            <Link to={"/contact"} className='text-blue-700'>Contact us For More Info</Link>
+          </div>
+          <div className="1/2 mb-5">
+            <div className='flex gap-14 border-b-1'>
+             
+              <span className='text-blue-700 text-2xl font-bold leading-9'>01</span>
+              <div className='flex flex-col'>
+                <h3 className='font-medium text-2xl leading-9'>How much time does it take ?</h3>
+                <p className='mt-4 mb-5'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <button className=''>+</button>
+            </div>
+            <div className='flex gap-14 border-b-1'>
+              <span className='text-blue-700 text-2xl font-bold leading-9'>02</span>
+              <div className='flex max-w-[624px] '>
+                <h3 className='font-medium text-2xl leading-9 my-2 '>How much time does it take ?</h3>
+              </div>
+              <button className='flex justify-end'>+</button>
+              <hr />
+            </div>
+            <div className='flex gap-14 border-b-1'>
+              <span className='text-blue-700 text-2xl font-bold leading-9'>03</span>
+              <div className='flex flex-col'>
+                <h3 className='font-medium text-2xl leading-9 my-2 '>How much time does it take ?</h3>
+              </div>
+              <button className=''>+</button>
+              <hr />
+            </div>
+            <div className='flex gap-14 border-b-1'>
+              <span className='text-blue-700 text-2xl font-bold leading-9'>04</span>
+              <div className='flex flex-col'>
+                <h3 className='font-medium text-2xl leading-9 my-2 '>How much time does it take ?</h3>
+              </div>
+              <button className=''>+</button>
+              <hr />
+            </div>
+            <div className='flex gap-14 border-b-1'>
+              <span className='text-blue-700 text-2xl font-bold leading-9'>05</span>
+              <div className='flex flex-col'>
+                <h3 className='font-medium text-2xl leading-9 my-2 '>How much time does it take ?</h3>
+              </div>
+              <button className=''>+</button>
+              <hr />
+            </div>
+          </div>
       </div>
     </div>
     </>
